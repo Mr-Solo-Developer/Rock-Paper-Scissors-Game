@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors game</title>
+    <link rel="shortcut icon" href="./Assists/game.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Rock Paper Scioor</h1>
+        <div class="s12sd">
+            <button onclick="
+        randommove();
+        Arise(`rock`,`paper`,`scissors`)
+        updato(`rock`);
+        updat1o()
+        "><img class="asas" src="./Assists/paper-emoji.png" alt="Rock"></button>
+
+            <button onclick="
+        randommove();
+        Arise(`paper`,`scissors`,`rock`)
+        updato(`paper`);
+        updat1o()
+        "><img src="./Assists/paper-emoji.png" alt="Rock"></button>
+
+            <button onclick="
+        randommove();
+        Arise(`scissors`,`rock`,`paper`)
+        updato(`scissors`);
+        updat1o()
+        "><img class="asas" src="./Assists/scissors-emoji.png" alt="Rock"></button>
+        </div>
+    </div>
+    <div>
+        <p class="para"></p>
+        <p class="pa"></p>
+        <p class="p21a"></p>
+    </div>
+    <button onclick="
+    score.Ties = 0;
+    score.Wins = 0;
+    score.losses = 0;
+    localStorage.removeItem(`score`);
+    updata();
+    // updato();
+    
+    " class="wqeq">Rest Button</button>
+
+    <script src="./javascript.js">    </script>
+</body>
+
+</html>

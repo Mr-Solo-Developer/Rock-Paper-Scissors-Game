@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.s12sd {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+
+.pa {
+    font-size: 25px;
+    font-weight: 500;
+    color: orange;
+    display: flex;
+    align-items: baseline;
+}
+
+.p21a {
+    font-size: 21px;
+    font-family: cursive;
+    font-weight: 500;
+    color: green;
+}
+
+.wqeq {
+    background-color: darkkhaki;
+    border: 3px solid darkblue;
+    color: blueviolet;
+    font-weight: 100;
+    font-family: cursive;
+    font-size: 20px;
+}
